@@ -5,7 +5,23 @@ import PackageDescription
 let package = Package(
     name: "ios_system",
     products: [
-        .library(name: "ios_system", targets: ["ios_system", "awk", "curl_ios", "files", "shell", "ssh_cmd", "tar", "text", "mandoc", "perl", "perlA", "perlB"])
+        .library(
+            name: "ios_system",
+            targets: [
+                "ios_system",
+                "awk",
+                "curl_ios",
+                "files",
+                "shell",
+                "ssh_cmd",
+                "tar",
+                "text"
+//                "mandoc",
+//                "perl",
+//                "perlA",
+//                "perlB"
+            ]
+        )
     ],
     dependencies: [
     ],
